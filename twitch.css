@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Bungee Hairline', cursive;
+    font-family: 'Bungee', cursive;
+    background-color: black;
+    width: 100%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+#logo {
+	margin-top: 30px;
+	width: 200px;
+}
+
+#select {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #a28dc9;
+    margin-top: 10px;
+}
+
+.toggle {
+	margin: 10px;
+	font-size: 20px;
+	padding: 3px;
+}
+
+.toggle:hover {
+	cursor: pointer;
+	color: #6441a5;
+}
+
+.box {
+	width: 250px;
+    height: 50px;
+    background-color: black;
+    margin: 20px;
+    color: #6441a5;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+#channels {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: space-around;
+}
+
+.status {
+    width: 250px;
+    height: 50px;
+    color: #a28dc9;;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: black;
+}
+
+footer {
+	color: white;
+	padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	position: relative;
+}
+
